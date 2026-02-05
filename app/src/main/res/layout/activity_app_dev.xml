@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="16dp"
+    android:columnCount="2">
+
+    <TextView
+        android:id="@+id/tvExplore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="App Development"
+
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <!-- CARD 1 -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="100000000000dp"
+        app:cardBackgroundColor="@color/navy">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Kotlin"
+            android:textColor="@color/electric_cyan"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- CARD 2 -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="100000000000dp"
+        app:cardBackgroundColor="@color/navy">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Java"
+            android:textColor="@color/electric_cyan"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:id="@+id/jet"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="100000000000dp"
+        app:cardBackgroundColor="@color/navy">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Jetpack Compose"
+            android:textColor="@color/electric_cyan"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="100000000000dp"
+        app:cardBackgroundColor="@color/navy">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="XML"
+            android:textColor="@color/electric_cyan"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="100000000000dp"
+        app:cardBackgroundColor="@color/navy">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Flutter"
+            android:textColor="@color/electric_cyan"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="100000000000dp"
+        app:cardBackgroundColor="@color/navy">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Dart"
+            android:textColor="@color/electric_cyan"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="100000000000dp"
+        app:cardBackgroundColor="@color/navy">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Flutter Widgets"
+            android:textColor="@color/electric_cyan"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_columnWeight="1"
+        app:cardCornerRadius="100000000000dp"
+        app:cardBackgroundColor="@color/navy">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="FireBase"
+            android:textColor="@color/electric_cyan"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- CONTACT US (FULL WIDTH) -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/road"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_columnSpan="2"
+        app:cardCornerRadius="24dp"
+        app:cardBackgroundColor="@color/electric_cyan">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="ROADMAP"
+            android:textColor="@color/text_dark_navy"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    </androidx.cardview.widget.CardView>
+
+
+</GridLayout>
